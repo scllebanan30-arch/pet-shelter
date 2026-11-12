@@ -31,3 +31,7 @@ class Bird(Pet):
   def describe(self):
   flying = "can fly" if self.can_fly else "cannot fly"
   return super().describe() + f" and {flying}."
+
+def sleep(self):
+self.energy = 3
+return f"{self.name} takes a nap. Energy is back to {self.energy}."
